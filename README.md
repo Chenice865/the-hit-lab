@@ -86,6 +86,12 @@ Do not open `templates/index.html` directly. The page must be served by Flask.
 - Consistent JSON API responses
 - Responsive sidebar layout
 
+## Deployment Note
+
+This application is hosted on **Render's free tier**.
+
+If the application has been inactive for a while, the first request may take up to **50 seconds** while the server starts. Once it has started, the application responds normally.
+
 ## Extending with GitHub Copilot
 
 Keep the current structure. Ask Copilot to extend existing files rather than creating a new architecture.
